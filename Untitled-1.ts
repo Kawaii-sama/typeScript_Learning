@@ -8,5 +8,8 @@ greet();
 const greet2 = function () {
   console.log ("hello");
 }
-
 greet2();
+
+// arrow function
+const greet3 = () => { console.log("hi"); }
+greet3();
