@@ -28,3 +28,10 @@ greet("Pratibha" , 23);
 //single command works without curly braces
 const greet = (name , age) => console.log(`My name is ${name} , my age is ${age}`);
 greet("Pratibha" , 23);
+
+//setTimeou is a function for a callback function and specified time
+setTimeout (greet, 1000);
+
+function greet() {
+    console.log ("Hi");
+}
