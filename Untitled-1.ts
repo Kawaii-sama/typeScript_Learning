@@ -24,3 +24,7 @@ greet("Pratibha" , 23);
 
 const greet = (name , age) => { console.log(`My name is ${name} , my age is ${age}`); console.log ("Life is pretty");}
 greet("Pratibha" , 23);
+
+//single command works without curly braces
+const greet = (name , age) => console.log(`My name is ${name} , my age is ${age}`);
+greet("Pratibha" , 23);
