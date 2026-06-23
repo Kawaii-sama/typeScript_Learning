@@ -39,3 +39,6 @@ function greet() {
 // setTimeout with function expression
 setTimeout ( function()  { console.log ("hi pretty"); } , 2000);
 setTimeout ( function() console.log ("hi pretty"); , 2000);
+
+//setTimeout with arrow function
+setTimeout ( () => console.log("hi pretty"), 2000);
