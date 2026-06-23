@@ -35,3 +35,7 @@ setTimeout (greet, 1000);
 function greet() {
     console.log ("Hi");
 }
+
+// setTimeout with function expression
+setTimeout ( function()  { console.log ("hi pretty"); } , 2000);
+setTimeout ( function() console.log ("hi pretty"); , 2000);
